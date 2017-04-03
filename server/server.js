@@ -108,7 +108,7 @@ console.log("Listening on: " + port);
 passport.use('local-signin', new LocalStrategy(
   {passReqToCallback : true}, //allows us to pass back the request to the callback
   function(req, username, password, done) {
-    funct.localAuth(username, password)
+    functs.localAuth(username, password)
     .then(function (user) {
       if (user) {
         console.log("LOGGED IN AS: " + user.username);
@@ -130,7 +130,7 @@ passport.use('local-signin', new LocalStrategy(
 passport.use('local-signup', new LocalStrategy(
   {passReqToCallback : true}, //allows us to pass back the request to the callback
   function(req, username, password, done) {
-    funct.localReg(username, password)
+    functs.localReg(username, password)
     .then(function (user) {
       if (user) {
         console.log("REGISTERED: " + user.username);
