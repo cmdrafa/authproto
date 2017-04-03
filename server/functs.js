@@ -1,5 +1,5 @@
-var bcrypt = require('bcryptjs')
-var Q = require('q'),
+var bcrypt = require('bcryptjs');
+var Q = require('q');
 var config = require('./config.js');
 
 // MongoDB connection information

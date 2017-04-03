@@ -12,8 +12,8 @@ var GoogleStrategy = require('passport-google');
 var FacebookStrategy = require('passport-facebook');
 
 
-var config = require('./config.js')
-var functs = require('./functs.js')
+var config = require('./config.js');
+var functs = require('./functs.js');
 
 var app = express();
 
